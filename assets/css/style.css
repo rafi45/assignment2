@@ -12,6 +12,11 @@
 
 /* Included Google Font QuickStand */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* Nav Colors */
 
 .orange{
@@ -33,7 +38,7 @@
 .bg-color{
     background-color: #FEA301;
 }
-/* Navbar */
+/* Navbar Styling */
 .header {
     max-width: 1160px;
     margin: 0 auto;
@@ -42,6 +47,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
 }
 
 .logo-left {
@@ -60,8 +66,13 @@
     text-decoration: none;
 }
 
-.nav-btn{
+/* .nav-btn{
     margin: auto 0;
+} */
+
+.nav-btn {
+    display: flex;
+    align-items: center;
 }
 
 .nav-cta{
@@ -90,3 +101,31 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+@media screen and (min-width: 992px){
+    .mobile-hamburger{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .nav-links, .nav-cta{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    .navbar{
+        margin: 20px 16px;
+    }
+}
+
+/* Nav Styling End */
+
+
