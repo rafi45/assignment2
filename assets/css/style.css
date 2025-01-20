@@ -83,6 +83,7 @@
     padding: 10px 60px;
     line-height: 30px;
     color: #fff;
+    cursor: pointer;
 }
 
 .brand {
@@ -128,4 +129,88 @@
 
 /* Nav Styling End */
 
+/* Main Styling */
+
+main{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* Main End */
+
+/* Hero Styling */
+
+.hero-banner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-container{
+    width: 640px;
+}
+
+.banner-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 24px;
+}
+
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: #111111;
+    margin-bottom: 24px;
+}
+
+.banner-btn{
+    padding: 10px 47px;
+    color: #fff;
+    background-color: #111111;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+/* .banner-right-img{
+    width: 100%;
+} */
+@media screen and (max-width: 576px){
+    .hero-banner{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .hero-container{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 18px;
+    }
+    .banner-right-img{
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .banner-description{
+        margin-bottom: 18;
+    }
+
+    .banner-btn{
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 6px 24px;
+    }
+    main{
+        margin: 0 16px;
+    }
+}
+
+/* Hero Styling End */
 
