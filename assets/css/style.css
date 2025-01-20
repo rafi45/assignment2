@@ -13,6 +13,11 @@
 /* Included Google Font QuickStand */
 
 /* Navbar */
+.header {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -34,4 +39,7 @@ a.nav-item {
     text-decoration: none;
 }
 
+.nav-btn{
+    margin: auto 0;
+}
 
