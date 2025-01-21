@@ -315,3 +315,34 @@ main{
 .arrow-prev{
     margin-right: 10px;
 }
+
+@media screen and (max-width: 576px){
+    .card-container{
+        flex-direction: column;
+        gap: 12.3px;
+    }
+
+    .section-title{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .card-title{
+        font-size: 17px;
+    }
+    .card-description{
+        font-size: 11px;
+        padding: 0 81px;
+        margin: 22px 0;
+    }
+    .card-read-more{
+        font-size: 10.5px;
+    }
+    .card-btn{
+        margin: 0 0 36px 0;
+    }
+    .slider-arrow{
+        display: none;
+    }
+}
