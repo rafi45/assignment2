@@ -131,7 +131,7 @@
 
 /* Main Styling */
 
-main{
+.container-size{
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -345,4 +345,29 @@ main{
     .slider-arrow{
         display: none;
     }
+}
+
+/* Curriculum Styles End*/
+
+/* Story Styles */
+.stories{
+    background: url('/assets/img/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#story-1{
+    grid-row: span 2;
+}
+.story-img {
+    border-radius: 16px;
+}
+
+.story-items{
+    background-color: #fff;
 }
