@@ -350,24 +350,136 @@
 /* Curriculum Styles End*/
 
 /* Story Styles */
+
 .stories{
-    background: url('../img/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-    background-position: top;
-    background-repeat: no-repeat;
+    background-image: url('../img/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-position: right 40% bottom 100%;
+    background-repeat: repeat-y;
 }
 .story-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 19px;
 }
 
-#story-1{
+#story-featured{
     grid-row: span 2;
 }
-.story-img {
+
+.story-card{
     border-radius: 16px;
+    background-color: #fff;
 }
 
-.story-items{
-    background-color: #fff;
+.strimg{
+    border-radius: 16px 16px 0 0;
+}
+
+.story-btn1 {
+    margin-left: 38px;
+    padding: 14px 19px;
+    border: none;
+    border-radius: 48px;
+    background-color: #3CD8E8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.story-date {
+    margin-top: -25px;
+}
+
+.story-btn {
+    margin-left: 38px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 48px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#sbtn-2, #sbtn-4, #sbtn-5{
+    background-color: #95B226;
+}
+#sbtn-3{
+    background-color: #5D58F0;
+}
+.story-contents1{
+    padding: 33px 38px 34px 38px;
+}
+.story-contents {
+    padding: 19px 37px 28px 37px;
+}
+
+.story-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.story-title1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.story-desc1{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 48px;
+    padding-right: 30px;
+}
+
+.stor-bottom-btn{
+    padding: 10px 61px;
+    color: #fff;
+    background-color: #111111;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: Quicksand;
+    margin: 80px 0 60px 0;
+}
+
+.view-all-btn{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 576px){
+    #story-featured{
+        display: none;
+    }
+    .strimg {
+            width: 100%;
+    }
+    .story-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 11px;
+    }
+    .story-btn {
+        margin-left: 22px;
+        padding: 6px 11px;
+        border: none;
+        border-radius: 48px;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .story-date {
+        margin-top: -18px;
+    }
+    .story-title {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+    .card-container{
+        margin-bottom: 20px;
+    }
 }
