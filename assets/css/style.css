@@ -214,3 +214,104 @@ main{
 
 /* Hero Styling End */
 
+/* Curriculum Styles */
+
+.section-title {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.curriculum{
+    background-image: url('/assets/img/bg.png');
+    background-position: center top;
+}
+
+.card-container{
+    display: flex;
+    gap: 29px;
+    margin-bottom: 80px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #202020;
+    text-align: center;
+}
+
+.card-description {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 33px;
+    color: #808080;
+}
+
+.card-img {
+    padding: 52px 115px 32px 115px;
+}
+
+.card-btn {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 58px;
+}
+
+.card-btn a{
+    text-decoration: none;
+}
+
+.card-read-more {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.btn-color1{
+    color: #64C8FF;
+}
+.btn-color2{
+    color: #F0AA00;
+}
+.btn-color3{
+    color: #8700FF;
+}
+
+.curri-card1 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.curri-card2{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.curri-card3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.slider-arrow {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.arrow-prev{
+    margin-right: 10px;
+}
