@@ -86,6 +86,10 @@
     cursor: pointer;
 }
 
+.nav-cta:hover{
+    background-color: #95B226;
+}
+
 .brand {
     font-size: 32px;
     font-weight: 700;
@@ -175,6 +179,11 @@
     border: none;
     border-radius: 10px;
 }
+.banner-btn:hover{
+    background-color: #FEA301;
+    cursor: pointer;
+}
+
 /* .banner-right-img{
     width: 100%;
 } */
@@ -313,10 +322,24 @@
     margin-bottom: 60px;
 }
 
-.arrow-prev{
+.previous{
     margin-right: 10px;
 }
 
+.previous, .next{
+    padding: 17px 22px 19px 22px;
+    background-color: #FEA301;
+    border-radius: 50%;
+}
+.previous:hover{
+    background-color: #95B226;
+    cursor: pointer;
+}
+
+.next:hover{
+    background-color: #95B226;
+    cursor: pointer;
+}
 @media screen and (max-width: 576px){
     .card-container{
         flex-direction: column;
@@ -445,7 +468,10 @@
     font-family: Quicksand;
     margin: 80px 0 60px 0;
 }
-
+.stor-bottom-btn:hover{
+    background-color: #FEA301;
+    cursor: pointer;
+}
 .view-all-btn{
     text-align: center;
 }
