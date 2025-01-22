@@ -373,6 +373,17 @@
 
 /* Curriculum Styles End*/
 
+.scroll{
+    padding: 15px 0;
+    background-color: #FEA301;
+}
+
+.scroll-marq{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 28px;
+}
 /* Story Styles */
 
 .stories{
